@@ -1,0 +1,122 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for my JSON file format",
+
+
+  {
+    "id": "0001",
+    "type": " Verdura",
+    "name": "Cistella",
+    "price": 12.0,
+    "image": {
+      "url": "images/0001.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0001.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0002",
+    "type": "Fruita",
+    "name": "Mandarines",
+    "price": 3.0,
+    "image": {
+      "url": "images/0002.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0002.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0003",
+    "type": "Fruita",
+    "name": "Taronges",
+    "price": 2.0,
+    "image": {
+      "url": "images/0003.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0003.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0004",
+    "type": "Verdura",
+    "name": "Carxofa",
+    "price": 5.0,
+    "image": {
+      "url": "images/0004.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0004.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0005",
+    "type": "Altres",
+    "name": "Mel",
+    "price": 5.0,
+    "image": {
+      "url": "images/0005.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0005.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0006",
+    "type": "Pa",
+    "name": "Pa de Segol",
+    "price": 5.0,
+    "image": {
+      "url": "images/0006.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0006.jpg",
+      "width": 32,
+      "height": 32
+    }
+  },
+  {
+    "id": "0007",
+    "type": "Pa",
+    "name": "Pa integral",
+    "price": 5.0,
+    "image": {
+      "url": "images/0007.jpg",
+      "width": 200,
+      "height": 200
+    },
+    "thumbnail": {
+      "url": "images/thumbnails/0007.jpg",
+      "width": 32,
+      "height": 32
+    }
+  }
+
+
+
+
+}

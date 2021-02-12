@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ebotiga2.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="La lista de Articulos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+        <ListView
+
+            ItemsSource="{Binding .}"
+            Header="Mis articulos"
+            Footer="Fin del listado"
+            HasUnevenRows="True">
+
+            <ListView.HeaderTemplate>
+                <DataTemplate>
+                    <Label Text="Mis articulos"></Label>
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+            <ListView.FooterTemplate>
+                <DataTemplate>
+                    <Label Text="Fin del listado"></Label>
+                </DataTemplate>
+            </ListView.FooterTemplate>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ContentView>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                    <ColumnDefinition ></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding . }" Grid.Column="1"/>
+                                <Label Text="{Binding type }" Grid.Column="2"/>
+                                <Label Text="{Binding name }" Grid.Column="3"/>
+                                <Label Text="{Binding price }" Grid.Column="4"/>
+                                <ImageButton Source="{Binding uri_image }" Grid.Column="6" HeightRequest="50" Aspect="AspectFit"></ImageButton>
+                                <Label Text="{Binding image_url  }"  Grid.Column="5"/>
+                             </Grid>
+                         </ContentView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+        <Frame BackgroundColor="Black">
+        <Label Text="nuevo articulo" HorizontalTextAlignment="Center" TextColor="White" FontSize="20"/>
+        </Frame>
+        <StackLayout>
+            <Entry Text="ID Nuevo Articulo"></Entry>
+            <Entry Text="nombre Nuevo Articulo"></Entry>
+            <Entry Text="tipo Nuevo Articulo"></Entry>
+            <Entry Text="precio Nuevo Articulo"></Entry>
+            <Entry Text="imagen Nuevo Articulo"></Entry>
+            <Button  Text="subir imagen"></Button>            
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>

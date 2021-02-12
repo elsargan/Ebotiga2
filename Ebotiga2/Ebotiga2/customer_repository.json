@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "JSON Schema for my JSON file format",
+
+  {
+    "first_name": "James",
+    "last_name": "Butterburg",
+    "mail": "james_butterburg@gmail.com" ,
+    "quota": "100"
+  },
+  {
+    "first_name": "Josephine",
+    "last_name": "Darakjy",
+    "mail": "josephine_darakjy@gmail.com",
+    "quota": "100"
+  },
+  {
+    "first_name": "Art",
+    "last_name": "Chemel",
+    "mail": "art_chemel@gmail.com",
+    "quota": "100"
+  },
+
+}
